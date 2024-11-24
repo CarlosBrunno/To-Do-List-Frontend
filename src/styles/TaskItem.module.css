@@ -1,0 +1,81 @@
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(43, 45, 49, 1);
+    padding: 15px;
+    width: 100%;
+    max-width: 620px;
+    border-bottom: 1px solid rgba(60, 64, 67, 1);
+    gap: 1rem;
+}
+
+
+.taskItem:hover {
+    background: rgba(53, 55, 60, 1);
+    transition: 0.3s;
+}
+
+.taskText {
+    width: 80%;
+    text-align: left;
+}
+
+.taskTitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Times New Roman';
+}
+
+.taskDesc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: rgba(189, 189, 189, 1);
+    font-family: 'Times New Roman';
+
+}
+
+.taskItemCheckBox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    border: 2px solid rgba(152, 152, 152, 1);
+    border-radius: 0px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.taskItemCheckBox:checked {
+    border-color: rgba(71, 114, 250, 1);
+    background-color: rgba(71, 114, 250, 1); 
+    color: white;
+    position: relative;
+  }
+  
+.taskItemCheckBox:checked::after {
+    content: "✔";
+    position: absolute;
+    left: 4px;
+    bottom: 0rem;
+    color: white;
+    font-size: 16px;
+  }
+
+  input[type="checkbox"]:checked ~ .taskText .taskTitle,
+  input[type="checkbox"]:checked ~ .taskText .taskDesc {
+        text-decoration: line-through;
+    }
+
+
+    .editTask, .deleteTask {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }

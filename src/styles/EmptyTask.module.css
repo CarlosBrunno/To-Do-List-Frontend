@@ -1,0 +1,23 @@
+.taskEmptyDiv{
+    font-family: Inter;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.p1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+}
+
+.p2{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: rgba(189, 189, 189, 1);
+
+}

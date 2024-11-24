@@ -1,0 +1,133 @@
+.taskFormModal{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    height: 100%; 
+    overflow: auto;
+    transition-duration: 1.3s;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    transform: translateX(0); /* Faz o modal aparecer vindo da direita */
+    
+}
+
+
+.modalContent {
+    font-family: Inter;
+    background: rgba(43, 45, 49, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-left: 11rem;
+    padding-right: 11rem;
+
+}
+
+.taskForm{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.p3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: rgba(189, 189, 189, 1);
+    margin-bottom: 0;
+}
+
+.p4{
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 4rem;
+}
+
+.label {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #3c3c3c;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.textArea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #3c3c3c;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+    resize: none;
+    height: 100px;
+    margin-bottom: 6rem;
+}
+
+.closeButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 1);
+}
+
+.closeButtonForm {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.closeButtonForm:hover {
+    background: rgba(68, 68, 68, 1);
+    transition: 0.3s;
+}
+
+.submitButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background: rgba(17, 39, 110, 1);
+    transition: 0.3s;
+}
+
+.buttonsForm {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 15px;
+    gap: 12px;
+}

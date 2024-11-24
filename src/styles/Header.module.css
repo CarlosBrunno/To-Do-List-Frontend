@@ -1,0 +1,27 @@
+.headerLogo{
+    text-align: center;
+    padding-top: 30px;
+    width: 231.45px;
+    height: 60px;
+    top: 118px;
+    left: 640px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.h2{
+    width: 620px;
+    height: 51px;
+    top: 376px;
+    left: 449px;
+    gap: 0px;
+    padding-top: 150px;
+    border-bottom: 1px solid rgba(60, 64, 67, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+}
